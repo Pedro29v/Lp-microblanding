@@ -10,11 +10,17 @@ function Nav() {
   };
 
   return (
-    <div className="w-screen h-auto flex flex-col md:flex-row md:justify-between  text-fontColor  ">
-      <div className=" w-screen h-12 flex  justify-between py-3 px-4 md:w-[10rem] md:px-1 ">
-        <h2 className="font-bold text-xl ml-2 md:text-4xl md:ml-16 md:mt-6  lg:ml-20  ">
-          KPB
-        </h2>
+    <div
+      className="shadow-xl shadow-bottom md:shadow-none w-screen h-auto flex flex-col md:flex-row 
+    md:justify-between  text-fontColor  "
+    >
+      <div className=" w-screen h-12 flex  justify-between py-3 px-4 md:w-[30rem] md:px-1  ">
+        <h1
+          className="text-xl  ml-2 md:text-2xl md:ml-16 
+        md:mt-6  lg:ml-20 text-pink-500 "
+        >
+          Karina´s Perfect Brows
+        </h1>
         <button onClick={menu} className=" md:hidden ">
           {open ? (
             <FontAwesomeIcon icon={faX} className="mt-[0.4rem] mr-3  " />
@@ -57,7 +63,7 @@ function Nav() {
       </div>
 
       {open && (
-        <div className=" w-screen h-auto  text-primary bg-auxiliar text-center  translate-y-2  ">
+        <div className="w-screen h-auto text-primary bg-auxiliar font-bold text-center p-2 top-12 fixed  ">
           <a href="#about">
             <p className="mt-3">HOME</p>
           </a>

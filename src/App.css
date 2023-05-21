@@ -1,10 +1,16 @@
 body {
   background-color: #ddc8ca;
-  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Playfair Display", serif;
+  font-family: "Anton", serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
 }
