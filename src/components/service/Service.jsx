@@ -1,6 +1,6 @@
 import microblading from "../../assets/microblading2.png";
 import microshading from "../../assets/microshading.jpg";
-import henna from "../../assets/henna.jpg";
+import henna from "../../assets/henna2.jpg";
 
 function Service() {
   return (
