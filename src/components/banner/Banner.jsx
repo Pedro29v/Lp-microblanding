@@ -13,8 +13,8 @@ function Banner() {
           <strong
             className="bg-gradient-to-r from-purple-500
            via-pink-500 to-red-500 text-transparent bg-clip-text 
-           dark:bg-gradient-to-r from-purple-300
-           via-pink-300 to-red-300"
+           dark:bg-gradient-to-r dark:from-purple-300
+           dark:via-pink-300 dark:to-red-300"
           >
             sobrancelhas
           </strong>{" "}
