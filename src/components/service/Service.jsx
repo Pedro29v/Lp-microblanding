@@ -1,5 +1,6 @@
 import microblading from "../../assets/microblading2.png";
 import microshading from "../../assets/microshading.jpg";
+import henna from "../../assets/henna.jpg";
 
 function Service() {
   return (
@@ -47,6 +48,26 @@ function Service() {
             className="w-[70%] h-[15.5rem] mt-8 m-auto rounded-sm 
           bg-cover bg-no-repeat"
             style={{ backgroundImage: `url(${microshading})` }}
+          ></div>
+        </div>
+
+        <div
+          className="w-[80%] h-[28rem] m-auto mt-10 bg-white rounded-sm
+      text-center p-2 "
+        >
+          <h3 className="text-fontColor">Pigmentação com Henna</h3>
+
+          <p className="mt-4 text-sm ">
+            consiste na pintura das sobrancelhas com pigmentos naturais
+            extraídos da semente de uma planta para dar cor sobre a área
+            desenhada na pele e nos pelos, melhorando o formato e harmonizando o
+            rosto.
+          </p>
+
+          <div
+            className="w-[70%] h-[15.5rem] mt-8 m-auto rounded-sm 
+          bg-cover bg-no-repeat"
+            style={{ backgroundImage: `url(${henna})` }}
           ></div>
         </div>
       </div>
