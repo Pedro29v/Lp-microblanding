@@ -12,7 +12,9 @@ function Banner() {
           Quer exibir{" "}
           <strong
             className="bg-gradient-to-r from-purple-500
-           via-pink-500 to-red-500 text-transparent bg-clip-text"
+           via-pink-500 to-red-500 text-transparent bg-clip-text 
+           dark:bg-gradient-to-r from-purple-300
+           via-pink-300 to-red-300"
           >
             sobrancelhas
           </strong>{" "}
