@@ -7,9 +7,9 @@ function Service() {
     <div className="w-screen h-auto md:mt-[12rem] ">
       <div
         className="w-[100%] p-4 
-      text-center text-[1.4em] text-pink-500 mb-6 md:text-[2.5em] dark:text-white "
+      text-center text-[1.4em] text-pink-500 mb-6 md:text-[2.5em] "
       >
-        <h2>Nossos serviços</h2>
+        <h2 className="dark:text-white ">Nossos serviços</h2>
       </div>
 
       <div className=" md:flex md:justify-between  md:p-0 md:mt-[5rem]  md:w-[90%] md:m-auto ">
