@@ -73,8 +73,8 @@ function Banner() {
       </div>
 
       <div
-        className=" w-[47%] m-auto h-[19rem] bg-contain flex items-center  
-        bg-no-repeat mt-8 md:mt-[5rem] md:w-[31.7%] md:h-[22.5rem] md:mr-8 "
+        className=" w-[47%] m-auto h-[10rem] bg-contain flex items-center  
+        bg-no-repeat mt-8 md:mt-[5rem] md:w-[31.7%] md:h-[22.5rem] md:mr-8  rounded-[50%] "
         style={{ backgroundImage: `url(${logo})` }}
       ></div>
     </div>
