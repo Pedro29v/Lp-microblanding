@@ -6,14 +6,14 @@ import { CheckCircleIcon } from "@heroicons/react/solid";
 
 function Banner() {
   return (
-    <div className="w-screen h-[90vh] text-center md:mt-[3rem] md:flex md:justify-between ">
+    <div className="w-screen h-[90vh] text-center md:mt-[3rem] md:flex md:justify-between">
       <div className="p-6 md:p-2 mt-[5rem] md:mt-[8rem] md:w-[55%] md:ml-10">
         <h2 className="text-[1.5em] md:text-[3em]  text-black ">
           Quer exibir{" "}
           <strong
             className="bg-gradient-to-r from-purple-500
            via-pink-500 to-red-500 text-transparent bg-clip-text 
-           dark:bg-white"
+           "
           >
             sobrancelhas
           </strong>{" "}

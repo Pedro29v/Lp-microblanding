@@ -18,7 +18,7 @@ function Nav() {
         <a href="#Banner">
           <h1
             className="text-xl  ml-2 md:text-2xl md:ml-16 
-        md:mt-6  lg:ml-20 text-pink-500 dark:text-white "
+        md:mt-6  lg:ml-20 text-pink-500  "
           >
             Karina´s Perfect Brows
           </h1>
