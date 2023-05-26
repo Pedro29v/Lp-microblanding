@@ -13,7 +13,7 @@ function Banner() {
           <strong
             className="bg-gradient-to-r from-purple-500
            via-pink-500 to-red-500 text-transparent bg-clip-text 
-           dark:text-primary"
+           dark:bg-white"
           >
             sobrancelhas
           </strong>{" "}
@@ -74,7 +74,7 @@ function Banner() {
 
       <div
         className=" w-[47%] m-auto h-[10rem] bg-contain flex items-center  
-        bg-no-repeat mt-8 md:mt-[5rem] md:w-[31.7%] md:h-[22.5rem] md:mr-8  rounded-[50%] "
+        bg-no-repeat mt-8 md:mt-[5rem] md:w-[31.7%] md:h-[22.5rem] md:mr-8 rounded-md "
         style={{ backgroundImage: `url(${logo})` }}
       ></div>
     </div>
