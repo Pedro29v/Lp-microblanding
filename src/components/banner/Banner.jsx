@@ -6,7 +6,7 @@ import { CheckCircleIcon } from "@heroicons/react/solid";
 
 function Banner() {
   return (
-    <div className="w-screen h-[90vh] text-center  md:flex md:justify-between ">
+    <div className="w-screen h-[90vh] text-center md:mt-[3rem] md:flex md:justify-between ">
       <div className="p-6 md:p-2 mt-[5rem] md:mt-[8rem] md:w-[55%] md:ml-10">
         <h2 className="text-[1.5em] md:text-[3em]  text-black ">
           Quer exibir{" "}
@@ -37,7 +37,7 @@ function Banner() {
           </ul>
         </div>
 
-        <div className="mt-6 md:mt-[4rem] w-[100%] h-auto flex justify-center ">
+        <div className="mt-6 md:mt-[8rem] w-[100%] h-auto flex justify-center ">
           <a
             href="https://www.instagram.com/kariandris05/"
             target="_blank"
