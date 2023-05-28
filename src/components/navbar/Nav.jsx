@@ -34,25 +34,25 @@ function Nav() {
       </div>
 
       <div className="hidden  md:flex md:w-[45rem] md:pt-7 md:font-bold md:justify-between md:px-4 md:text-[1em] md:mt-4 md:mr-4 lg:mr-8 lg-pt-7  ">
-        <a href="#about">
+        <a href="#banner">
           <p className="md:ml-16 hover:text-auxiliar transition hover:transform hover:scale-125">
             HOME
           </p>
         </a>
 
-        <a href="#skills">
+        <a href="#service">
           <p className=" hover:text-auxiliar transition hover:transform hover:scale-125 ">
             SERVIÇOS
           </p>
         </a>
 
-        <a href="#resume">
+        <a href="#about">
           <p className=" hover:text-auxiliar transition hover:transform hover:scale-125">
             SOBRE MIM
           </p>
         </a>
 
-        <a href="#work">
+        <a href="#gallery">
           <p className=" hover:text-auxiliar transition hover:transform hover:scale-125">
             GALERIA
           </p>

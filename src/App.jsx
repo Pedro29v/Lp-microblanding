@@ -9,10 +9,18 @@ function App() {
   return (
     <>
       <Nav />
-      <Banner />
-      <Service />
-      <About />
-      <WorkPicture />
+      <div id="banner">
+        <Banner />
+      </div>
+      <div id="service">
+        <Service />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="gallery">
+        <WorkPicture />
+      </div>
     </>
   );
 }
