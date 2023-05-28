@@ -66,7 +66,7 @@ function Nav() {
       </div>
 
       {open && (
-        <div className="w-screen h-auto text-fontColor bg-secondary font-bold text-center p-2 top-12 fixed  ">
+        <div className="w-screen h-auto text-fontColor bg-primary font-bold text-center p-2 top-12 fixed shadow-xl shadow-bottom ">
           <a href="#about">
             <p className="mt-3">HOME</p>
           </a>
