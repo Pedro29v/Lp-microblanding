@@ -48,7 +48,7 @@ function Nav() {
 
         <a href="#resume">
           <p className=" hover:text-auxiliar transition hover:transform hover:scale-125">
-            SOBRE NÓS
+            SOBRE MIM
           </p>
         </a>
 
