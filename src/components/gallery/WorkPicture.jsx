@@ -38,10 +38,10 @@ function WorkPicture() {
   ];
 
   return (
-    <div className="w-[80%] h-[30rem] mt-[6rem] md:w-[40%] md:h-[20rem] m-auto md:mt-[10rem] ">
+    <div className="w-[60%] h-[30rem] mt-[6rem] md:w-[40%] md:h-[20rem] m-auto md:mt-[10rem] ">
       <div
         className="w-[100%] p-4 
-      text-center text-[1.4em]  text-pink-500 mb-10 md:text-[2.5em] "
+      text-center text-[1.4em]  text-pink-500 mb-10 md:mb-[6rem] md:text-[2.5em] "
       >
         <h2>Galeria</h2>
       </div>
