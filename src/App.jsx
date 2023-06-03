@@ -4,6 +4,7 @@ import Banner from "./components/banner/Banner";
 import Service from "./components/service/Service";
 import About from "./components/about/About";
 import WorkPicture from "./components/gallery/WorkPicture";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
       </div>
       <div id="gallery">
         <WorkPicture />
+      </div>
+      <div id="contact">
+        <Contact />
       </div>
     </>
   );
