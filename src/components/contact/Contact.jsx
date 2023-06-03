@@ -11,7 +11,7 @@ function Contact() {
 
       <button className=" w-[15%] p-2 m-auto mt-4 flex justify-center">
         <a
-          href="https://wa.me/5595984000924"
+          href="https://wa.me/5595984000942"
           target="_blank"
           rel="noreferrer"
           className="text-[2em]  "
