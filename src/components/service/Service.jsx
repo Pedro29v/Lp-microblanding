@@ -4,18 +4,21 @@ import henna from "../../assets/henna2.jpg";
 
 function Service() {
   return (
-    <div className="w-screen h-auto md:mt-[10rem] " data-aos="flip-up">
+    <div className="w-screen h-auto md:mt-[10rem] ">
       <div
         className="w-[100%] p-4 
       text-center text-[1.4em] text-pink-500 mb-6 md:text-[2.5em] "
       >
-        <h2 className="dark:text-white ">Nossos serviços</h2>
+        <h2 className="dark:text-white " data-aos="zoom-in">
+          Nossos serviços
+        </h2>
       </div>
 
       <div className=" md:flex md:justify-between  md:p-0 md:mt-[5rem]  md:w-[90%] md:m-auto ">
         <div
           className="w-[80%] h-[28rem] m-auto  bg-white md:bg-primary rounded-sm
       text-center p-2 md:p-4 "
+          data-aos="flip-up"
         >
           <h3 className="text-fontColor md:text-[1.2em]">Microshading</h3>
 
@@ -36,6 +39,7 @@ function Service() {
         <div
           className="w-[80%] h-[28rem] m-auto mt-10 md:m-0 bg-white md:bg-primary rounded-sm
       text-center p-2 md:p-4 md:ml-8 md:mr-8"
+          data-aos="flip-up"
         >
           <h3 className="text-fontColor md:text-[1.2em]">Microblading</h3>
 
@@ -54,6 +58,7 @@ function Service() {
         <div
           className="w-[80%] h-[28rem] m-auto mt-10 md:m-0 bg-white md:bg-primary rounded-sm
       text-center p-2 md:p-4 "
+          data-aos="flip-up"
         >
           <h3 className="text-fontColor md:text-[1.2em]">
             Pigmentação com Henna

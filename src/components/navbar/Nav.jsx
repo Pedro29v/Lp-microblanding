@@ -11,8 +11,8 @@ function Nav() {
 
   return (
     <div
-      className="shadow-xl shadow-bottom md:shadow-none w-screen h-auto flex flex-col md:flex-row 
-    md:justify-between  text-fontColor  "
+      className="shadow-xl shadow-bottom  w-screen h-auto flex flex-col md:flex-row 
+    md:justify-between  text-fontColor fixed top-0 z-10 bg-primary md:pb-4"
     >
       <div className=" w-screen h-12 flex  justify-between py-3 px-4 md:w-[30rem] md:px-1  ">
         <a href="#Banner">
@@ -67,19 +67,19 @@ function Nav() {
 
       {open && (
         <div className="w-screen h-auto text-fontColor bg-primary font-bold text-center p-2 z-10  top-12 fixed shadow-xl shadow-bottom ">
-          <a href="#about">
+          <a href="#banner">
             <p className="mt-3">HOME</p>
           </a>
 
-          <a href="#skills">
+          <a href="#service">
             <p className="mt-3">SERVIÇOS</p>
           </a>
 
-          <a href="#resume">
+          <a href="#about">
             <p className="mt-3">SOBRE NÓS</p>{" "}
           </a>
 
-          <a href="#work">
+          <a href="#gallery">
             <p className="mt-3">GALERIA</p>
           </a>
 
