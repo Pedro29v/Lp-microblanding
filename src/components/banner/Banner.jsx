@@ -12,14 +12,7 @@ function Banner() {
     >
       <div className="p-6 md:p-2 mt-[5rem] md:mt-[8rem] md:w-[55%] md:ml-10">
         <h2 className="text-[1.5em] md:text-[3em]  text-black ">
-          Quer exibir{" "}
-          <strong
-            className="bg-gradient-to-r from-pink-400
-           via-pink-500 to-pink-600 text-transparent bg-clip-text 
-           "
-          >
-            sobrancelhas
-          </strong>{" "}
+          Quer exibir <strong className="text-pink-500 ">sobrancelhas</strong>{" "}
           perfeitas e realçar sua beleza com naturalidade?{" "}
         </h2>
 
