@@ -40,7 +40,7 @@ function WorkPicture() {
   return (
     <div
       className="w-[60%] h-[30rem] mt-[6rem] md:w-[40%] md:h-[auto] m-auto md:mt-[10rem]  "
-      data-aos="flip-left"
+      data-aos="flip-up"
     >
       <div
         className="w-[100%] p-4 

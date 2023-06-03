@@ -4,7 +4,7 @@ function About() {
   return (
     <div
       className="w-[screen] h-auto mt-[5rem] p-2 md:mt-[10rem]"
-      data-aos="fade-left"
+      data-aos="flip-up"
     >
       <div
         className="w-[100%] p-4 
