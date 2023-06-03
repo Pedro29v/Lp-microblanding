@@ -2,7 +2,10 @@ import picture from "../../assets/karina2.png";
 
 function About() {
   return (
-    <div className="w-[screen] h-auto mt-[5rem] p-2 md:mt-[10rem]">
+    <div
+      className="w-[screen] h-auto mt-[5rem] p-2 md:mt-[10rem]"
+      data-aos="fade-left"
+    >
       <div
         className="w-[100%] p-4 
       text-center text-[1.4em] text-pink-500 mb-6 md:text-[2.5em] "
